@@ -1,3 +1,10 @@
+## [1.38.3](https://github.com/otto-de/b2b-design-system/compare/v1.38.2...v1.38.3) (2026-06-19)
+
+
+### Bug Fixes
+
+* **custom-dropdown:** [NEPTUNE-5311] Adjustment of the custom dropdown component ([#717](https://github.com/otto-de/b2b-design-system/issues/717)) ([77b4eb0](https://github.com/otto-de/b2b-design-system/commit/77b4eb08a81b6869922560a6fcd2e644603ba3fd))
+
 ## [1.38.2](https://github.com/otto-de/b2b-design-system/compare/v1.38.1...v1.38.2) (2026-04-02)
 
 
