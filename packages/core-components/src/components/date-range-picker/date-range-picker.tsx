@@ -269,6 +269,7 @@ export class B2bDateRangePicker implements ComponentInterface {
                   }}
                   onKeyDown={(event: KeyboardEvent) => {
                     if (event.key === 'Enter') {
+                      event.stopPropagation();
                       this.setDate(undefined);
                     }
                   }}>
@@ -288,6 +289,7 @@ export class B2bDateRangePicker implements ComponentInterface {
                 }}
                 onKeyDown={event => {
                   if (event.key === 'Enter') {
+                    event.stopPropagation();
                     this.toggleOpen();
                   }
                 }}
